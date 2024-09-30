@@ -399,7 +399,7 @@ void loop()
         }
 
         // put module back to listen mode
-        radio.startReceive();
+        //radio.startReceive();  //IF START AGAIN DO NOT RECEIVE WELL, ONLY THE FIRST TIME (TESTED ON T3 S3 V1.2 SX1262)
 
     }
 }
